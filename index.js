@@ -1,11 +1,12 @@
-import {format, addQuarters, addYears} from 'date-fns'
+import {addQuarters, addYears} from 'date-fns'
 
 function nextQuarter(fromWhen = new Date()) {
-  return format(addQuarters(fromWhen, 1), 'QQQ')
+  const month = addQuarters(fromWhen, 1).getMonth() + 1
+  return 'Q' + Math.ceil(month / 3)
 }
 
 function nextYear(fromWhen = new Date()) {
-  return format(addYears(fromWhen, 1), 'yyyy')
+  return addYears(fromWhen, 1).getFullYear().toString()
 }
 
 module.exports = {
