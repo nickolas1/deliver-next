@@ -11,7 +11,7 @@ yarn add deliver-next
 
 ## usage
 ```js
-import { nextQuarter, next-year } from 'deliver-next'
+import { nextQuarter, nextYear } from 'deliver-next'
 
 // pass in a date or pass no argument for now
 nextQuarter(new Date('12-10-2020'))
