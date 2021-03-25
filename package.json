@@ -1,7 +1,7 @@
 {
   "name": "deliver-next",
-  "version": "1.0.0",
-  "description": "generate a string for the following quarter or year. keep your deliverables jsut over the horizon.",
+  "version": "1.0.1",
+  "description": "generate a string for the following quarter or year. keep your deliverables just over the horizon.",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup --config",
