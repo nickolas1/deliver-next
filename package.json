@@ -1,6 +1,6 @@
 {
   "name": "deliver-next",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generate a string for the following quarter or year. keep your deliverables just over the horizon.",
   "main": "dist/bundle.js",
   "scripts": {

@@ -1,15 +1,15 @@
-#deliver-next
+# deliver-next
 
 functions to keep a delivery date in the future
 
-##installation
+## installation
 ```bash
 npm install deliver-next
 # or with yarn
 yarn add deliver-next
 ```
 
-##usage
+## usage
 ```js
 import { nextQuarter, next-year } from 'deliver-next'
 
